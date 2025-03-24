@@ -51,7 +51,7 @@ Entropy Garden is a five-species cellular automaton written in Lua (using the L�
 Follow these instructions to set up and run Entropy Garden on your local machine.
 
 ### Prerequisites
-- **Lua:** Download from the official Lua website, or install LÖVE if you prefer running `.love` projects.
+- **Lua:** Download from the official Lua website, and install LÖVE2D for `.love` projects.
 - **Git:** Download from the official Git website.
 
 ### Installation
@@ -64,13 +64,8 @@ Follow these instructions to set up and run Entropy Garden on your local machine
    ```bash
    cd entropy-garden
    ```
-3. (Optional) Install Dependencies:
-   If any additional Lua libraries are needed (via LuaRocks), install them:
-   ```bash
-   luarocks install <package-name>
-   ```
 
-4. Run the Application:
+3. Run the Application:
    - If using LÖVE:
      ```bash
      love .
@@ -79,7 +74,7 @@ Follow these instructions to set up and run Entropy Garden on your local machine
      ```bash
      lua main.lua
      ```
-
+  - Or draw the root folder onto love.exe
 ---
 
 ## Usage
